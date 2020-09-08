@@ -35,10 +35,6 @@ public class BirdScript : MonoBehaviour
          Destroy(gameObject);
          Time.timeScale = 0;
          restartButton.SetActive(true);
-          if (Input.GetKey("escape"))
-          {
-            Application.Quit();
-          }
         }
       }
     
